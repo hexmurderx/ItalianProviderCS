@@ -65,6 +65,7 @@ class AltadefinizioneProvider : MainAPI() {
         return newMovieLoadResponse(
             title,
             url,
+            TvType.Movie,
             url
         ) {
             this.year = year
@@ -73,7 +74,7 @@ class AltadefinizioneProvider : MainAPI() {
             this.tags = tags
             addActors(actors)
             this.posterUrl = poster
-            addRating(rating)
+            addScore(rating?.toDoubleOrNull())
             addTrailer(trailerUrl)
         }
     }

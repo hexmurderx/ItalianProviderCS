@@ -1,0 +1,204 @@
+﻿.\gradlew.bat : WARNING: A restricted method in 
+java.lang.System has been called
+In riga:1 car:50
++ ... va\jdk-24"; .\gradlew.bat make 
+makePluginsJson --continue 2>&1 | Out- ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (WAR 
+   NING: A rest...has been called:String) [], R  
+  emoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+WARNING: java.lang.System::load has been called 
+by net.rubygrapefruit.platform.internal.NativeLib
+raryLoader in an unnamed module (file:/C:/Users/A
+ndroid_HPJHS/.gradle/wrapper/dists/gradle-8.12-bi
+n/cetblhg4pflnnks72fxwobvgv/gradle-8.12/lib/nativ
+e-platform-0.22-milestone-27.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED 
+to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a 
+future release unless native access is enabled
+
+Starting a Gradle Daemon, 4 stopped Daemons could not be reused, use --status for details
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 
+'CloudstreamPlugins'.
+> Multiple build operations failed.
+      Could not read workspace metadata from C:\U
+sers\Android_HPJHS\.gradle\caches\8.12\transforms
+\272f3e989dc430f059071edf6ab362f8\metadata.bin
+      Could not read workspace metadata from C:\U
+sers\Android_HPJHS\.gradle\caches\8.12\transforms
+\50df261baa5ad1af2d8f8609349f98b0\metadata.bin
+      Could not read workspace metadata from C:\U
+sers\Android_HPJHS\.gradle\caches\8.12\transforms
+\8a75ea1f37dfb8b6ab688bc660696ff8\metadata.bin
+      Could not read workspace metadata from C:\U
+sers\Android_HPJHS\.gradle\caches\8.12\transforms
+\e71819dacf8565a04febfad84c6bc59d\metadata.bin
+      Could not read workspace metadata from C:\U
+sers\Android_HPJHS\.gradle\caches\8.12\transforms
+\4ca1ac56c67560e014bf17c66d6d9048\metadata.bin
+      Could not read workspace metadata from C:\U
+sers\Android_HPJHS\.gradle\caches\8.12\transforms
+\71a09f91424b414fbea72d94bff8d8a4\metadata.bin
+      Could not read workspace metadata from C:\U
+sers\Android_HPJHS\.gradle\caches\8.12\transforms
+\781c2427c8dba4be8efa8a2286281ad6\metadata.bin
+      Could not read workspace metadata from C:\U
+sers\Android_HPJHS\.gradle\caches\8.12\transforms
+\a3ba60958ad446101d593e8d662aac1d\metadata.bin
+      Could not read workspace metadata from C:\U
+sers\Android_HPJHS\.gradle\caches\8.12\transforms
+\4da9bc975def0d1bfca4cb6fca74e2d6\metadata.bin
+      Could not read workspace metadata from C:\U
+sers\Android_HPJHS\.gradle\caches\8.12\transforms
+\d3d1c838bb1370f77a755af413ed492a\metadata.bin
+      ...and 34 more failures.
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+272f3e989dc430f059071edf6ab362f8\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+50df261baa5ad1af2d8f8609349f98b0\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+8a75ea1f37dfb8b6ab688bc660696ff8\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+e71819dacf8565a04febfad84c6bc59d\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+4ca1ac56c67560e014bf17c66d6d9048\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+71a09f91424b414fbea72d94bff8d8a4\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+781c2427c8dba4be8efa8a2286281ad6\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+a3ba60958ad446101d593e8d662aac1d\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+4da9bc975def0d1bfca4cb6fca74e2d6\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+d3d1c838bb1370f77a755af413ed492a\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+a063381dbd2a19f26ab969daa3c5355c\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+eeef243db2b64fbd60d33569f9eda483\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+5eef06c59fb1d0e70b67c0c3368d829f\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+1216d4e319b6508bf154783148f90386\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+7fd2ba372bce38fddd344f9d6ff03b7d\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+bff02e16494abcdd10a94b5cc02dfd29\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+111c30dfa5308fbfae9d6ec7f5a84fae\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+f44d7862143dfc99d35f6b5d5fd0898d\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+9007e6d4ee000aa964d94943c271e088\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+0bb568defc01f41b3ce08e3c32304513\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+915d34dff163d610b0669908e774c8a3\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+8cc9d6c4ac65768346d2b18dbc12dbc4\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+6d02dea57ebcdb85b9ab8f9fd511a5a0\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+e99568ae1442167f57855e8f1fb1bcd9\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+b6436964c590f21f5228829a83876808\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+844f4b8476b50821a6671378e2d62a55\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+18b9bb59ebe79319b7974b6f2e762181\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+2f53db206d5d16795ba340f5f30c9d23\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+225694c4d9885f8b44406cdccca03871\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+3c3aad0c7e98d22f5713ed8cfcb96d19\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+d0060bda2be1d82551c118e963d35bff\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+9f5042b433003da0dc89981f7fbe25b5\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+563102ba1934e132acb31789fc925a8a\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+d333e032109e74737f603aa746775cbf\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+df9d1ce55261877bf11a64dfc8f114f0\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+0c7a16c7538098addf51110df1b72f19\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+9147409dbbe32a7583358596b4103639\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+48cb290b315a8b3fc9ba2b9d00e399dc\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+19404c5559ddfe71ae2fe47eadae1106\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+697d9bbb3c3b6e74a33f8c61883acdee\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+d207070fe728a0a05f6724161480711a\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+41488d7f3d06be5d6da120a9a704a20c\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+b3fbe91e3f56f5d557c176dab4c4e047\metadata.bin
+   > Could not read workspace metadata from C:\Us
+ers\Android_HPJHS\.gradle\caches\8.12\transforms\
+588706644d3a583e97fd31efa9eef881\metadata.bin
+
+* Try:
+> Run with --stacktrace option to get the stack 
+trace.
+> Run with --info or --debug option to get more 
+log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 18s
