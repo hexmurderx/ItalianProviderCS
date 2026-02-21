@@ -80,10 +80,11 @@ class AnimeSaturnProvider : MainAPI() {
         if (episode.contains("-"))
             episode = episode.split("-")[0]
 
-        return Episode(
-            data = this.attr("href"),
-            episode = episode.toInt()
-        )
+        return newEpisode(
+            data = this.attr("href")
+        ) {
+            this.episode = episode.toInt()
+        }
 
     }
 
@@ -232,7 +233,7 @@ class AnimeSaturnProvider : MainAPI() {
         }
 
         callback.invoke(
-            ExtractorLink(
+            newExtractorLink(
                 name,
                 name,
                 episodeUrl!!,
