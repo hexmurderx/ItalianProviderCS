@@ -20,10 +20,5 @@ cloudstream {
         "TvSeries"
     )
 
-<<<<<<<< HEAD:EurostreamingProvider/build.gradle.kts
-
     iconUrl = "https://www.google.com/s2/favicons?domain=eurostreaming.money&sz=%size%"
-========
-    iconUrl = "https://www.google.com/s2/favicons?domain=starlive.xyz&sz=%size%"
->>>>>>>> parent of cc4d0aa (Disabled other providers for test):StarLiveProvider/build.gradle.kts
 }
