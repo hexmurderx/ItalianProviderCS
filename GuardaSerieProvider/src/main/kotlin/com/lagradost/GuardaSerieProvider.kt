@@ -84,7 +84,7 @@ class GuardaSerieProvider : MainAPI() {
             TvType.TvSeries,
             episodeList
         ) {
-            addRating(rating)
+            addScore(rating)
             this.plot = description
             this.year = year
             this.posterUrl = poster
