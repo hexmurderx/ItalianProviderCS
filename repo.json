@@ -1,0 +1,8 @@
+{
+    "name": "itcs",
+    "description": "itaRepository",
+    "manifestVersion": 1,
+    "pluginLists": [
+      "https://github.com/hexmurderx/ItalianProviderCS/blob/builds/plugins.json"
+    ]
+  }
